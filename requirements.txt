@@ -1,0 +1,12 @@
+# Core
+pgmpy
+pandas
+numpy
+networkx
+matplotlib
+
+# Notebook/display utilities
+ipython
+
+# Graphviz rendering (requires system graphviz installed)
+pygraphviz
