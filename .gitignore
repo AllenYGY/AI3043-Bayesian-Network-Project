@@ -1,0 +1,25 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+venv/
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Reports / coverage
+.coverage
+htmlcov/
+
+# Generated artifacts
+# results/
