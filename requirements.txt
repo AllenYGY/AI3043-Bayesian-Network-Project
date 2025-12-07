@@ -13,3 +13,6 @@ pygraphviz
 
 # ML baselines
 scikit-learn
+
+# Interactive query UI
+gradio
