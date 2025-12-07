@@ -10,3 +10,6 @@ ipython
 
 # Graphviz rendering (requires system graphviz installed)
 pygraphviz
+
+# ML baselines
+scikit-learn
