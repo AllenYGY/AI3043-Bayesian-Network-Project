@@ -53,17 +53,17 @@ DROP_COLS = ["fbs", "restecg"]
 COLUMNS = [c for c in COLUMNS_ALL if c not in DROP_COLS]
 FEATURE_COLS = [c for c in COLUMNS if c != "num"]
 
-DISPLAY_NAMES = {
+DISPLAY_NAMES = {  # mapping of column names to more descriptive display names
     "age": "Age",
     "sex": "Sex",
     "cp": "Chest Pain Type",
-    "trestbps": "Resting BP",
+    "trestbps": "Resting Blood Pressure",
     "chol": "Cholesterol",
     "thalach": "Max Heart Rate",
     "exang": "Exercise Angina",
     "oldpeak": "ST Depression",
     "slope": "ST Slope",
-    "ca": "Major Vessels",
+    "ca": "Number of Stenosed Vessels",
     "thal": "Thalassemia",
     "num": "Heart Disease Severity",
 }
